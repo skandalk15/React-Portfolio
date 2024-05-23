@@ -50,7 +50,7 @@ export default function Intro() {
         >
             <h1 className='text-2xl sm:text-4xl font-bold'>Hello, I&apos;m Soham Prasad Kandalkar</h1>
             <p className='text-lg mt-3'>a versatile software engineer excelling in <span className='font-bold italic'>Backend development</span> and a <span className='font-bold italic'>Java enthusiast</span>.</p>
-            <p className='text-lg mt-3'>With a knack for optimizing system performance and leading innovative projects, I thrive on creating scalable, efficient software. Outside of coding, I'm passionate about continuous learning and embracing new challenges.</p>
+            <p className='text-lg mt-3'>With a knack for optimizing system performance and leading innovative projects, I thrive on creating scalable, efficient software. Outside of coding, I am passionate about continuous learning and embracing new challenges.</p>
         </motion.div>
         
         <motion.div className='mt-5 flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'
