@@ -22,7 +22,7 @@ This is a personal portfolio website built using React, Next.js, and Tailwind CS
 
 ## Demo
 
-Check out the live demo of the portfolio [here](https://your-portfolio.vercel.app).
+Check out the live demo of the portfolio [here](https://soham-portfolio-delta.vercel.app/).
 
 ## Installation
 
