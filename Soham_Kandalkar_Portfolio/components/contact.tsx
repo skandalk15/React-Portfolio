@@ -9,9 +9,9 @@ import { sendEmail } from '@/actions/sendEmail';
 export default function Contact() {
   const { ref } = useSectionInView('Contact');
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const formData = new FormData(e.target);
+    const formData = new FormData(e.currentTarget);
 
     const response = await sendEmail(formData);
     if (response.error) {
@@ -20,7 +20,7 @@ export default function Contact() {
     } else {
       console.log(response.success);
       alert('Email sent successfully!');
-      e.target.reset();  // Optionally reset the form after successful submission
+      e.currentTarget.reset();  // Optionally reset the form after successful submission
     }
   };
 
