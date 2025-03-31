@@ -46,20 +46,21 @@ export const experiencesData = [
     date: "2017 - 2021",
   },
   {
-    title: "Software Development Engineer - I (Java), Dream11",
-    location: "Mumbai, India",
+    title: "Software Engineer",
+    location: "Adons Softech, Mumbai, India",
+    description:
+      "Led full-stack development and performance optimization of ERP web application using modern frameworks and tools, improving user engagement, deployment efficiency, and system performance.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2019 - 2021",
+  },
+  {
+    title: "Software Engineer in Test",
+    location: "Dream11, Mumbai, India",
     description:
       "Spearheaded the development of a high-performance Leaderboard API at Dream11, enhancing user experience for over 10 million users and driving a 25% improvement in response times.",
     icon: React.createElement(CgWorkAlt),
     date: "2021 - 2022",
   },
-  // {
-  //   title: "PG Diploma in Data Science and Business Analytics",
-  //   location: "Texas McCombs Business School",
-  //   description: "",
-  //   icon: React.createElement(IoIosCode),
-  //   date: "2021 - 2022",
-  // },
   // {
   //   title: "Software Engineer Intern",
   //   location: "Amotions Inc, San Francisco, USA",
@@ -76,6 +77,14 @@ export const experiencesData = [
     icon: React.createElement(LuGraduationCap),
     date: "2022-2024",
   },
+  {
+    title: "Software Engineer",
+    location: "Morgan Stanley, Remote US",
+    description:
+      "Designed and delivered high-performance trading platform features with scalable APIs, responsive UIs, and optimized CI/CD, boosting deployment speed, user satisfaction, and system reliability.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 - Present",
+  }
 ] as const;
 
 export const projectsData = [
