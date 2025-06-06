@@ -46,14 +46,6 @@ export const experiencesData = [
     date: "2017 - 2021",
   },
   {
-    title: "Software Engineer",
-    location: "Adons Softech, Mumbai, India",
-    description:
-      "Led full-stack development and performance optimization of ERP web application using modern frameworks and tools, improving user engagement, deployment efficiency, and system performance.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
     title: "Software Engineer in Test",
     location: "Dream11, Mumbai, India",
     description:
@@ -61,14 +53,6 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "2021 - 2022",
   },
-  // {
-  //   title: "Software Engineer Intern",
-  //   location: "Amotions Inc, San Francisco, USA",
-  //   description:
-  //     "Worked on a full-stack project for a startup. I developed a web app for tracking mental health of employees.",
-  //   icon: React.createElement(FaReact),
-  //   date: "2023",
-  // },
   {
     title: "MS in Computer Science",
     location: "University of Southern California, Los Angeles, USA",
@@ -79,12 +63,12 @@ export const experiencesData = [
   },
   {
     title: "Software Engineer",
-    location: "Morgan Stanley, Remote US",
+    location: "Easley Dunn Production Inc., Los Angeles, USA",
     description:
-      "Designed and delivered high-performance trading platform features with scalable APIs, responsive UIs, and optimized CI/CD, boosting deployment speed, user satisfaction, and system reliability.",
+      "Led development of two major projects—SafetyNet (React Native, Node.js) and Robot Race (Unity, C#)—delivering scalable APIs, dynamic UIs, and agile team coordination to enhance performance, UX, and team efficiency.",
     icon: React.createElement(CgWorkAlt),
-    date: "2024 - Present",
-  }
+    date: "2024 - 2025",
+  },
 ] as const;
 
 export const projectsData = [
